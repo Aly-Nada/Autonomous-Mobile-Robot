@@ -111,8 +111,7 @@ void setup()
   
   //--------IR----------------
     // start serial for output
-  //Serial.println("Program started.");
-  //Serial.println();
+ 
   pinMode (in,INPUT);
   //Default: the IR will only be turned on during reads.
   mySensorBar.setBarStrobe();
